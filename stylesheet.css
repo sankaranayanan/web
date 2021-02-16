@@ -1,0 +1,303 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+ul{
+    display: flex; 
+}
+.container{
+    position: relative;
+    margin-top: 100px;
+}
+nav{
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: 'Montseerat',sans-serif;
+    height: 100px;
+}
+nav .logo{
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
+nav .links{
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .links li{
+    list-style: none;
+    background-color: black;
+}
+nav .links a{
+    display: block;
+    padding: 1em;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0.1)
+}
+
+.container1{
+  position: relative;
+  width: 100%;
+  top: -110px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.image {
+  display: block;
+  font-family: 'Poppins', sans-serif;
+}
+.overlay {
+    position: absolute;
+    box-sizing: border-box;
+    height:850px;
+    top:0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container1:hover .overlay {
+    opacity: 1;
+    font-size: 70px;
+    align-items:right;
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+}
+.container1:hover p{
+    text-align: center;
+    padding-top: 200px;
+    font-family: 'Poppins', sans-serif;
+}
+.links li:hover a{
+    background: #E91E63;
+    transition: 0.5s;
+}
+.container2{
+    position: relative;
+    width: 100%;
+    top: -110px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  .image {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+  }
+  .overlay2 {
+      position: absolute;
+      box-sizing: border-box;
+      height:850px;
+      top:0;
+      background: white;
+      background: rgba(231, 218, 218, 0.5);
+      color: #f1f1f1; 
+      width: 100%;
+      transition: .5s ease;
+      opacity:0;
+      color: black;
+      font-size: 20px;
+      padding: 20px;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+  }
+  
+  .container2:hover .overlay2{
+      opacity: 1;
+      font-size: 70px;
+      align-items:right;
+      width: 60%;
+      font-family: 'Poppins', sans-serif;
+  }
+  .container2:hover p{
+      text-align: center;
+      padding-top: 100px;
+      font-family: 'Poppins', sans-serif;
+  }
+.container3{
+    position: relative;
+    width: 100%;
+    top: -110px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  .image {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+  }
+  .overlay3 {
+      position: absolute;
+      box-sizing: border-box;
+      height:1450px;
+      top:0;
+      background: white;
+      background: rgba(231, 218, 218, 0.5);
+      color: #f1f1f1; 
+      width: 100%;
+      transition: .5s ease;
+      opacity:0;
+      color: black;
+      font-size: 20px;
+      padding: 20px;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+  }
+  
+  .container3:hover .overlay3{
+      opacity: 1;
+      font-size: 70px;
+      align-items:right;
+      width: 60%;
+      font-family: 'Poppins', sans-serif;
+  }
+  .container3:hover p{
+      text-align: center;
+      padding-top: 500px;
+      font-family: 'Poppins', sans-serif;
+  }
+  *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+ .contact{
+ 	position: relative;
+	 min-height: 100vh;
+	 height:850px;
+ 	padding: 50px 100px;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	flex-direction: column;
+	background: url(backc3.jpg);
+	top:-100px; 
+ 	background-size: cover;
+
+ }
+ .contact .content{
+ 	max-width: 800px;
+ 	text-align: center;
+ }
+ .contact .content h2{
+ 	font-size: 34px;
+ 	font-weight: 500;
+ 	color: #000000;
+ }
+ .contact .content p{
+ 	font-weight: 300;
+ 	color: #000000;
+ }
+ .container{
+ 	width: 100%;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	margin-top: 30px;
+ }
+ .container .contact-info{
+ 	margin-top: 30px;
+ 	width: 50%;
+ 	display: flex;
+ 	flex-direction: column;
+ }
+ .container .contact-info .box{
+ 	position: relative;
+ 	padding: 20px 0;
+ 	display: flex;
+ }
+ .container .contact-info .box .icon{
+ 	min-width: 60px;
+ 	height: 60px;
+ 	display: flex;
+ 	background: #fff;
+ 	justify-content: center;
+ 	align-items: center;
+ 	border-radius: 50%;
+ 	font-size: 25px;
+ }
+ .container .contact-info .box .text{
+ 	display: flex;
+ 	margin-left: 20px;
+ 	font-size: 18px;
+ 	color: #000000;
+ 	flex-direction: column;
+ 	font-weight: 350;
+ }
+  .container .contact-info .box .text h3{
+  	font-weight: 550;
+  	color: #000000;
+  }
+  .ContactForm h2{
+  	font-size: 30px;
+  	color: #333;
+  	font-weight: 500;
+  }
+  .ContactForm .inputBox{
+  	position: relative;
+  	width: 100%;
+  	margin-top: 10px;
+  }
+  .ContactForm .inputBox input,
+   .ContactForm .inputBox textarea
+   {
+  	width: 100%;
+  	padding: 5px 0;
+  	font-size: 16px;
+  	margin: 10px 0;
+  	border: none;
+  	border-bottom: 2px solid #333;
+  	outline: none;
+  	resize: none;
+  }
+  .ContactForm .inputBox span
+  {
+  	position: absolute;
+  	left: 0;
+  	padding: 5px 0;
+  	font-size: 16px;
+  	margin: 10px 0;
+  	pointer-events: none;
+  	transition: 0.5s;
+  	color: #666;
+  }
+  .ContactForm .inputBox input[type="submit"]
+  {
+  	width: 100px;
+  	background: #00bcd4;
+  	color: #fff;
+  	border: none;
+  	cursor: pointer;
+  	padding: 10px;
+  	font-size: 20px;
+  }
